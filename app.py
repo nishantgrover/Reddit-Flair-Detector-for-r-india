@@ -23,7 +23,7 @@ def cleanData(s):
 
 def predict(inputURL):
 	model = joblib.load("Model/finalModel.joblib")
-	reddit = praw.Reddit(client_id='47EskPBhTw9vBQ', client_secret='KYueLFUFfelhZzUf8xiMCCzER0U', user_agent='r/india Web Scraping')
+	reddit = praw.Reddit(client_id='client_id', client_secret='client_secret', user_agent='user_agent')
 	try:
 		inputSubmission = reddit.submission(url=inputURL)
 	except:
