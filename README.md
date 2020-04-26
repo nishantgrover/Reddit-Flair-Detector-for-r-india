@@ -29,6 +29,7 @@ Made the web app using HTML and Flask. (app.py)
 App link :- https://r-india-flair-predictor.herokuapp.com/
 
 ##Tree Structure
+```
 .
 ├── app.py
 ├── Data
@@ -48,5 +49,5 @@ App link :- https://r-india-flair-predictor.herokuapp.com/
 │   ├── EDA and preprocessing - Task 2.ipynb
 │   └── Making and Training Model - Task 3.ipynb
 └── templates
-    ├── main2.html
     └── main.html
+```
