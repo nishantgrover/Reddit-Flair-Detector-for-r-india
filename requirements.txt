@@ -1,6 +1,6 @@
 joblib==0.14.1
 nltk==3.5
-Flask==1.1.2
+Flask==2.3.2
 praw==6.5.1
 sklearn==0.0
 gunicorn
